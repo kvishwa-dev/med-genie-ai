@@ -31,14 +31,14 @@ const Footer = () => {
           <div>
             <div>
               <h2 className="text-3xl font-extrabold mb-3 tracking-tight">
-                MedGenie
+                MedGenie AI
               </h2>
               <p className="text-sm text-white/80 leading-relaxed mb-6">
                 The Future of Healthcare Collaboration
               </p>
               <div className="flex items-center space-x-5 text-xl">
                 <a
-                  href="https://twitter.com"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white/90 transition-all hover:scale-110"
@@ -46,7 +46,7 @@ const Footer = () => {
                   <FaXTwitter />
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white/90 transition-all hover:scale-110"
@@ -54,7 +54,7 @@ const Footer = () => {
                   <FaInstagram />
                 </a>
                 <a
-                  href="https://discord.com"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white/90 transition-all hover:scale-110"
@@ -100,7 +100,7 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-white/80">
               <li>
                 <a
-                  href="https://discord.gg/medgenie"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
@@ -110,7 +110,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://twitter.com/medgenie"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
@@ -120,7 +120,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://t.me/medgenie"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
@@ -167,7 +167,7 @@ const Footer = () => {
 
         {/* Bottom Line */}
         <div className="mt-12 border-t border-white/25 pt-5 text-xs text-white/70 text-center">
-          © 2025 MedGenie. All Rights Reserved.
+          © 2026 MedGenie. All Rights Reserved.
         </div>
       </div>
     </footer>

@@ -6,7 +6,7 @@ export function StructuredData() {
     "@type": "WebApplication",
     "name": "Med Genie",
     "description": "Get instant AI-powered health advice and medical information. Ask questions about symptoms, treatments, and general health guidance with our intelligent medical chatbot.",
-    "url": "https://med-genie-five.vercel.app",
+    "url": "https://med-genie-ai.vercel.app",
     "applicationCategory": "HealthApplication",
     "operatingSystem": "Web Browser",
     "offers": {
@@ -21,11 +21,11 @@ export function StructuredData() {
     "publisher": {
       "@type": "Organization",
       "name": "Med Genie",
-      "url": "https://med-genie-five.vercel.app"
+      "url": "https://med-genie-ai.vercel.app"
     },
     "potentialAction": {
       "@type": "UseAction",
-      "target": "https://med-genie-five.vercel.app"
+      "target": "https://med-genie-ai.vercel.app/"
     },
     "featureList": [
       "AI-powered health advice",
@@ -34,7 +34,7 @@ export function StructuredData() {
       "Health consultation",
       "24/7 availability"
     ],
-    "screenshot": "https://med-genie-five.vercel.app/og-image.png",
+    "screenshot": "https://med-genie-ai.vercel.app/og-image.png",
     "softwareVersion": "1.0.0",
     "aggregateRating": {
       "@type": "AggregateRating",

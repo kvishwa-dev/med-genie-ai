@@ -1,14 +1,5 @@
-# 🩺 MED GENIE
+# 🩺 MED GENIE AI
 ### Your Intelligent AI Health Assistant with Secure Authentication
-
-<div align="center">
-
-![GSSoC'26](https://img.shields.io/badge/GSSoC-2026-orange)
-![Open Source](https://img.shields.io/badge/Open--Source-Yes-brightgreen)
-![Live](https://img.shields.io/badge/Live-Website-blue)
-![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen)
-![Authentication](https://img.shields.io/badge/Auth-JWT-green)
-![Database](https://img.shields.io/badge/DB-SQLite%2FPostgreSQL-blue)
 
 > **🔐 Now featuring secure user authentication, personalized health profiles, and protected health data!**
 
@@ -57,7 +48,7 @@ Med Genie is an intelligent AI-powered health assistant that provides instant, a
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/ashutosh-engineer/med-genie.git
+   git clone https://github.com/kvishwa-dev/med-genie-ai.git
    cd med-genie
    ```
 
@@ -232,21 +223,6 @@ npx prisma generate        # Regenerate client
 
 ## 🛣️ Roadmap
 
-### 🚀 **Upcoming Features**
-
-| Feature | Description | Timeline | Priority |
-|---------|-------------|----------|----------|
-| 🔐 **Advanced Auth Features** | 2FA, OAuth providers, password reset | Q1 2025 | High |
-| 📱 **Mobile Authentication** | Biometric login, mobile-optimized flows | Q1 2025 | High |
-| 🧠 **ML Diagnosis Engine** | Advanced AI-driven health issue prediction | Q2 2025 | High |
-| 📍 **Smart Location Services** | Nearby hospitals, clinics, pharmacy finder | Q1 2025 | High |
-| 🗂️ **Enhanced Health Profiles** | Medical history, allergies, medications | Q2 2025 | Medium |
-| 👨‍⚕️ **Specialist AI Avatars** | Cardiology, Pediatrics, etc. specialized responses | Q3 2025 | Medium |
-| 🌐 **Multi-language Support** | Hindi, Bengali, Tamil, Spanish, French | Q2 2025 | High |
-| ⏰ **Health Reminders** | Medication, appointment, wellness alerts | Q3 2025 | Low |
-| 📱 **Mobile App** | Native iOS/Android applications | Q4 2025 | Medium |
-| 🔄 **Offline Mode** | Basic functionality without internet | Q3 2025 | Low |
-
 ### 📈 **Performance Goals**
 
 - ⚡ **Response Time**: < 2 seconds for all queries
@@ -278,104 +254,6 @@ Med Genie features a comprehensive authentication system built with modern secur
 - **Database**: Prisma ORM with SQLite/PostgreSQL support
 - **Security**: bcrypt password hashing, JWT tokens, HTTP-only patterns
 - **Validation**: Zod schemas for input validation
-
-### 📖 **Documentation**
-For detailed authentication documentation, see [AUTHENTICATION.md](./AUTHENTICATION.md)
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from developers, healthcare professionals, and anyone passionate about improving healthcare accessibility!
-
-### 🌟 **Ways to Contribute**
-
-- 🐛 **Bug Reports**: Found an issue? [Report it here](https://github.com/ashutosh-engineer/med-genie/issues)
-- 💡 **Feature Requests**: Have an idea? [Share it with us](https://github.com/ashutosh-engineer/med-genie/issues)
-- 🛠️ **Code Contributions**: Check our [Contributing Guide](./Contributing.md)
-- 📖 **Documentation**: Help improve our docs and guides
-- 🎨 **Design**: UI/UX improvements and accessibility enhancements
-
-### 🚀 **Quick Contribution Steps**
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
-### 🏆 **Recognition**
-
-Contributors are recognized in our [Contributors Hall of Fame](./CONTRIBUTORS.md) and receive special badges for their contributions!
-
-**Current Maintainers:**
-- [@ashutosh-engineer](https://github.com/ashutosh-engineer) - Project Lead & Architecture
-- [Your Name Here] - Join our team!
-
----
-
-## 📄 License
-
-```
-MIT License
-
-Copyright (c) 2025 Med-Genie Contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-```
-
----
-
-<div align="center">
-
-### 🌟 **Star the project if you find it helpful!**
-
-### 🤝 **Join our community of healthcare innovators**
-
-**Made with ❤️ by the Med-Genie Team**
-
-[⭐ Star](https://github.com/ashutosh-engineer/med-genie) • [🐛 Report Bug](https://github.com/ashutosh-engineer/med-genie/issues) • [💡 Request Feature](https://github.com/ashutosh-engineer/med-genie/issues) • [📖 Documentation](./Contributing.md)
-
-*Part of [GirlScript Summer of Code 2025](https://gssoc.girlscript.tech/) - Empowering open source healthcare innovation*
-
-</div>-welcome-blue)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Next.js](https://img.shields.io/badge/Next.js-15.2.3-black)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
-![AI Powered](https://img.shields.io/badge/AI-Powered-purple)
-
-**A revolutionary AI-powered health companion that makes medical guidance accessible through natural conversations**
-
-🚀 **[Try Med-Genie Live](https://med-genie-five.vercel.app/)** | 📖 **[Documentation](#-getting-started)** | 🤝 **[Contributing](./Contributing.md)**
-
-</div>
-
----
-
-## � Table of Contents
-
-- [🎯 What is Med-Genie?](#-what-is-med-genie)
-- [✨ Key Features](#-key-features)
-- [🎬 Demo & Screenshots](#-demo--screenshots)
-- [🏗️ Architecture & Tech Stack](#️-architecture--tech-stack)
-- [🚀 Quick Start](#-quick-start)
-- [� Usage Guide](#-usage-guide)
-- [� Development Setup](#-development-setup)
-- [🛣️ Roadmap](#️-roadmap)
-- [🤝 Contributing](#-contributing)
-- [� License](#-license)
 
 ---
 
@@ -436,25 +314,9 @@ Zero data storage, zero tracking. Your health conversations remain completely pr
 | **� Privacy Protection** | No data collection/storage | ✅ Live |  
 ---
 
-## 🎬 Demo & Screenshots
-
-<div align="center">
-
-### 🏠 **Welcome Interface**
-*Clean, intuitive design that welcomes users to start their health journey*
-
-![Welcome Screen](./assets/demo1.png)
-
-### � **Interactive Chat Experience**
-*Natural conversation flow with instant AI responses and helpful suggestions*
-
-![Chat Interface](./assets/demo2.png)
-
-</div>
-
 ### 🌐 **Try It Live**
 
-Experience Med-Genie in action: **[med-genie-five.vercel.app](https://med-genie-five.vercel.app/)**
+Experience Med-Genie in action: **[med-genie-ai.vercel.app](https://med-genie-ai.vercel.app/)**
 
 **Sample Interactions:**
 - *"I have a headache and feel nauseous. What could this be?"*
@@ -509,28 +371,12 @@ Experience Med-Genie in action: **[med-genie-five.vercel.app](https://med-genie-
 
 ---
 
-## 🚀 Quick Start
-
-### 🎯 **For Users**
-
-1. **Visit**: Go to [med-genie-five.vercel.app](https://med-genie-five.vercel.app/)
-2. **Start Chatting**: Type or speak your health question
-3. **Get Guidance**: Receive instant AI-powered health insights
-4. **Stay Safe**: Follow up with healthcare professionals when needed
-
-### 👨‍💻 **For Developers**
-
-#### Prerequisites
-- **Node.js** (v18 or higher)
-- **npm** or **yarn** or **pnpm**
-- **Git** for version control
-
 #### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/ashutosh-engineer/med-genie.git
-cd med-genie
+git clone https://github.com/kvishwa-dev/med-genie-ai
+cd med-genie-ai
 
 # Install dependencies
 npm install
@@ -580,88 +426,4 @@ DATABASE_URL=your_database_url
 NEXT_PUBLIC_APP_URL=http://localhost:3000
 ```
 
----
-
-## � Usage Guide
-
-### 🗣️ **How to Chat with Med-Genie**
-
-#### **Text Input**
-- Type your health question naturally: *"I have a sore throat, what should I do?"*
-- Ask about symptoms: *"What causes headaches?"*
-- Request emergency help: *"Find hospitals near me"*
-
-#### **Voice Input**
-- Click the microphone icon 🎤
-- Speak clearly in your preferred language
-- Med-Genie will transcribe and respond
-
-#### **Emergency Situations**
-- Use keywords like "emergency", "hospital", "urgent"
-- Med-Genie will prioritize emergency guidance
-- Always call emergency services (911, etc.) for life-threatening situations
-
-### 🏥 **Feature Examples**
-
-<details>
-<summary><strong>💬 Health Consultation</strong></summary>
-
-**User**: *"I've been feeling tired and having trouble sleeping"*
-
-**Med-Genie**: *"I understand you're experiencing fatigue and sleep difficulties. Several factors could contribute to this, such as stress, lifestyle changes, or underlying health conditions. Here are some general suggestions:
-
-1. **Sleep Hygiene**: Try maintaining a consistent sleep schedule
-2. **Lifestyle**: Consider your diet, exercise, and stress levels
-3. **Medical Evaluation**: If symptoms persist, consult a healthcare provider
-
-Would you like to share more details about when these symptoms started or any other related concerns?"*
-
-</details>
-
-<details>
-<summary><strong>🚨 Emergency Assistance</strong></summary>
-
-**User**: *"Find hospitals near me"*
-
-**Med-Genie**: *"I'll help you find nearby hospitals. Here are some medical facilities in your area:
-
-🏥 **General Hospital**
-📍 123 Main St, Your City
-📞 (555) 123-4567
-
-🏥 **Emergency Medical Center**
-📍 456 Health Ave, Your City
-📞 (555) 987-6543
-
-For life-threatening emergencies, please call 911 immediately."*
-
-</details>
-
-### 🔒 **Privacy & Safety**
-
-- **No Data Storage**: Your conversations are not saved or tracked
-- **Local Processing**: Voice recognition happens on your device
-- **Secure Communication**: All data transmission is encrypted
-- **Medical Disclaimer**: Always shown with health advice
-
-📝 License
-Released under the MIT License.
-You’re free to use, modify, and distribute this software with proper attribution.
-
-© 2025 Med Genie — Built with ❤️ by Aayush Raj and contributors.
-
-yaml
-Copy
-Edit
----
-
-✅ You can directly **replace your current `README.md`** with this content. It’s organized, informative, and optimized for contributors, users, and open-source discoverability.
-
-Let me know if you'd like a **`CONTRIBUTING.md`**, **GitHub issue templates**, or a **feature roadmap.md** as well!
-
-
-
-
-
-
-
+© 2026 Med Genie AI — Built with ❤️ by Vishwajeet Kumar.

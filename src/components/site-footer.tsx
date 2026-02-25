@@ -28,7 +28,7 @@ export function SiteFooter() {
             <span>© {new Date().getFullYear()}</span>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <Link href="mailto:demo@gmail.com">
+            <Link href="mailto:cse.kvishwa@gmail.com">
               <Mail className="h-4 w-4" />
             </Link>
             <Link href="/contact" className="hover:underline hover:text-primary transition-colors flex items-center gap-1">
@@ -37,9 +37,7 @@ export function SiteFooter() {
             <Link href="/about" className="hover:underline hover:text-primary transition-colors">
               About
             </Link>
-            <Link href="/contribute" className="hover:underline hover:text-primary transition-colors">
-              Contribute
-            </Link>
+            
             <Link href="/privacy-policy" className="hover:underline hover:text-primary transition-colors">
               Privacy Policy
             </Link>
@@ -50,7 +48,7 @@ export function SiteFooter() {
               Terms of Use
             </Link>
             <Link
-              href="https://github.com/aayushraj1010/med-genie"
+              href="https://github.com/kvishwa-dev/med-genie-ai"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline hover:text-primary transition-colors flex items-center gap-1"

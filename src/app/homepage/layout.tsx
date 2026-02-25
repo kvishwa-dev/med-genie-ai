@@ -39,21 +39,21 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://med-genie-five.vercel.app'),
+  metadataBase: new URL('https://med-genie-ai.vercel.app'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://med-genie-five.vercel.app',
+    url: 'https://med-genie-ai.vercel.app',
     title: 'Med Genie - Your AI Health Assistant',
     description:
       'Get instant AI-powered health advice and medical information. Ask questions about symptoms, treatments, and general health guidance.',
     siteName: 'Med Genie',
     images: [
       {
-        url: 'https://med-genie-five.vercel.app/og-image.png',
+        url: 'https://med-genie-ai.vercel.app/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Med Genie - AI Health Assistant',
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     title: 'Med Genie - Your AI Health Assistant',
     description:
       'Get instant AI-powered health advice and medical information. Ask questions about symptoms, treatments, and general health guidance.',
-    images: ['https://med-genie-five.vercel.app/og-image.png'],
+    images: ['https://med-genie-ai.vercel.app/og-image.png'],
     creator: '@medgenie',
     site: '@medgenie',
   },

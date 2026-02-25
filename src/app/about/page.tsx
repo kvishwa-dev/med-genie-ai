@@ -251,7 +251,7 @@ export default function AboutPage() {
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Button variant="outline" asChild>
-                                <Link href="https://github.com/aayushraj1010/med-genie" target="_blank" rel="noopener noreferrer">
+                                <Link href="https://github.com/kvishwa-dev/med-genie-ai" target="_blank" rel="noopener noreferrer">
                                     <Github className="h-4 w-4 mr-2" />
                                     View on GitHub
                                     <ExternalLink className="h-3 w-3 ml-1" />
