@@ -60,7 +60,7 @@ export default function FeatureSection() {
   }, []);
 
   return (
-    <section className="w-full px-[6%] py-[120px] max-md:py-[70px]">
+    <section className="w-full px-[6%] py-[75px] max-md:py-[70px]">
 
       {/* Modern Medical Gradient Background */}
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-primary/10 via-transparent to-primary/5" />

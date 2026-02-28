@@ -13,7 +13,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="w-full bg-[#090909] px-[6%] pt-[175px] flex flex-col items-center gap-[60px] max-[768px]:pt-[120px] max-[640px]:gap-[40px]">
+    <section className="w-full bg-[#090909] px-[6%] pt-[75px] flex flex-col items-center gap-[60px] max-[768px]:pt-[120px] max-[640px]:gap-[40px]">
       <div data-aos="fade-up"
         className={`flex flex-col items-center gap-[32px] max-[640px]:gap-[24px] w-full text-center transition-all duration-700 ${
           visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
