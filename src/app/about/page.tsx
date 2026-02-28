@@ -51,11 +51,11 @@ export default function AboutPage() {
                         <div className="flex flex-wrap justify-center gap-2 mt-6">
                             <Badge variant="outline" className="text-sm px-3 py-1">
                                 <Github className="h-3 w-3 mr-1" />
-                                Open Source
+                                Startup
                             </Badge>
                             <Badge variant="secondary" className="text-sm px-3 py-1">
                                 <Award className="h-3 w-3 mr-1" />
-                                GSSoC'25 Project
+                                Med-Genie AI
                             </Badge>
                             <Badge variant="default" className="text-sm px-3 py-1">
                                 <Brain className="h-3 w-3 mr-1" />
@@ -236,41 +236,7 @@ export default function AboutPage() {
                     </CardContent>
                 </Card>
 
-                {/* Open Source & Community */}
-                <Card className="shadow-lg border-primary/20">
-                    <CardHeader>
-                        <CardTitle className="flex items-center text-2xl font-bold">
-                            <BookOpen className="h-6 w-6 text-primary mr-3" />
-                            Open Source & Community
-                        </CardTitle>
-                    </CardHeader>
-                    <CardContent className="space-y-4">
-                        <p className="text-base leading-relaxed">
-                            Med Genie is proudly part of <strong>GirlScript Summer of Code 2025 (GSSoC'25)</strong>, 
-                            fostering open-source contribution and collaborative development in the healthcare technology space.
-                        </p>
-                        <div className="flex flex-wrap gap-4">
-                            <Button variant="outline" asChild>
-                                <Link href="https://github.com/kvishwa-dev/med-genie-ai" target="_blank" rel="noopener noreferrer">
-                                    <Github className="h-4 w-4 mr-2" />
-                                    View on GitHub
-                                    <ExternalLink className="h-3 w-3 ml-1" />
-                                </Link>
-                            </Button>
-                            <Button variant="outline" asChild>
-                                <Link href="/contribute">
-                                    <Users className="h-4 w-4 mr-2" />
-                                    Contribute
-                                </Link>
-                            </Button>
-                        </div>
-                        <Separator />
-                        <div className="text-sm text-muted-foreground space-y-2">
-                            <p><strong>License:</strong> MIT License - Feel free to use, modify, and distribute</p>
-                            <p><strong>Contributors:</strong> Open to developers, designers, and healthcare professionals worldwide</p>
-                        </div>
-                    </CardContent>
-                </Card>
+                
 
                 {/* Important Disclaimer */}
                 <Card className="border-destructive/20 bg-destructive/5">
