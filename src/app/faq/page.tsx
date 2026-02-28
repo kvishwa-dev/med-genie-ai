@@ -1,6 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import { SiteHeader } from '@/components/site-header';
+import { SiteFooter } from '@/components/site-footer';
+import Layout from '@/components/layout';
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const faqs = [
@@ -44,6 +47,9 @@ export default function FAQs() {
   };
 
   return (
+    <>
+    <Layout>
+      
     <div id="faq" className="w-full h-auto bg-[#090909] py-16 px-[6%] fade-in">
       <h1 data-aos="fade-up" className="text-[32px] text-center text-[#FBFBFB] font-normal leading-[120%] mb-12">
         Frequently Asked Questions
@@ -54,6 +60,7 @@ export default function FAQs() {
           const isOpen = openIndex === index;
 
           return (
+            
             <div
               key={index}
               className={`w-full rounded-[8px] px-6 py-4 bg-[#1a1a1a] border border-[#2C2C2C] transition-all duration-300 ease-in-out ${
@@ -88,6 +95,7 @@ export default function FAQs() {
                 {faq.answer}
               </div>
             </div>
+            
           );
         })}
       </div>
@@ -109,5 +117,7 @@ export default function FAQs() {
         }
       `}</style>
     </div>
+    </Layout>
+    </>
   );
 }
